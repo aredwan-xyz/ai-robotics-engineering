@@ -1,0 +1,21 @@
+name: Link Checker
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Run every Monday at midnight
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.9.3
+        with:
+          args: --accept=200,429,403 --exclude-mail -v "**/*.md"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

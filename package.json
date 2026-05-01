@@ -1,0 +1,13 @@
+{
+  "name": "ai-robotics-engineering",
+  "version": "1.0.0",
+  "description": "The Ultimate Compendium for Electronics Engineering, Robotics & Physical AI",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.2.2"
+  }
+}
