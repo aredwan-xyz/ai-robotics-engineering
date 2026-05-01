@@ -51,6 +51,18 @@ Most "awesome" lists are link graveyards. This one is different:
 
 ---
 
+## Why C++? (The Language of Hardware)
+
+You might notice this repository is heavily dominated by C and C++. While Python rules the AI cloud, C++ is the undisputed king of the physical engineering world:
+
+1. **Deterministic Timing**: Languages like Python or JavaScript are "garbage collected," meaning they occasionally pause execution to clean up memory. If a drone flight controller pauses for 10ms, the drone crashes. C++ gives you manual, deterministic control over memory.
+2. **Resource Constraints**: Microcontrollers often have less than 500KB of RAM. C++ allows for bare-metal performance and direct register manipulation with zero overhead.
+3. **The Robotics Standard**: ROS 2 (Robot Operating System) is written in C++ for maximum performance.
+
+*Note: Python is still heavily used in the "Physical AI" sections for training reinforcement learning policies and neural networks (PyTorch/Isaac Lab) before they are deployed to the C++ hardware.*
+
+---
+
 ## Table of Contents
 
 - [Start Here](#-start-here)
