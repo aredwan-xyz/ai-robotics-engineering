@@ -5,6 +5,7 @@ export default defineConfig({
   description: "The Ultimate Compendium for Electronics Engineering, Robotics & Physical AI",
   srcDir: '../', // Root directory is the source for markdown files
   outDir: './.vitepress/dist',
+  base: '/ai-robotics-engineering/', // Required for GitHub Pages
   ignoreDeadLinks: true, // Don't fail the build if an external link is slow/dead
   themeConfig: {
     search: {
