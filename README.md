@@ -19,7 +19,7 @@
 
 # AI Robotics Engineering
 
-### The Ultimate Compendium for Electronics Engineering, Robotics & Physical AI
+### A self-study curriculum for electronics, robotics and physical AI
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
@@ -29,7 +29,7 @@
 
 > *"The next wave of AI is not in the cloud — it lives in the real world, in metal and silicon, moving, sensing, and adapting."*
 
-**This repository is the hardware engineer's bible.** Whether you're just discovering resistors or designing full-stack autonomous robots with onboard ML inference, everything you need lives here — curated, organized, and battle-tested.
+This collection contains learning roadmaps, reference links, project exercises and starter templates. The exercises are proposed learning work, not evidence that the maintainer has built or field-tested every robot or circuit described here.
 
 [**Start Here**](#-start-here) • [**Roadmaps**](#-learning-roadmaps) • [**Electronics**](#-electronics-engineering) • [**Robotics**](#-robotics) • [**Physical AI**](#-physical-ai--embodied-intelligence) • [**Projects**](#-project-ideas) • [**Tools**](#-tools--software) • [**Community**](#-community)
 
@@ -39,13 +39,13 @@
 
 ## Why This Exists
 
-Most "awesome" lists are link graveyards. This one is different:
+The collection is organized to support self-study:
 
-- Every resource is **tested and verified** — no dead links, no fluff
+- Links are maintained on a best-effort basis; a working link is not an endorsement or a hardware-validation result
 - Resources are **rated by difficulty** (⬜ Beginner / 🟦 Intermediate / 🟥 Advanced)
 - Includes **actual code, formulas, and diagrams** — not just links
 - Covers the full stack: **atoms → bits → behavior**
-- Built by engineers, for engineers
+- Validate electrical ratings, hardware safety and timing requirements before using a template on physical equipment
 
 **If this helped you**, please ⭐ star it — it helps others find it too.
 
