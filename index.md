@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "AI Robotics Engineering"
-  text: "The Ultimate Compendium"
-  tagline: "For Electronics Engineering, Robotics & Physical AI"
+  text: "A self-study curriculum"
+  tagline: "Roadmaps, exercises and starter templates for electronics, robotics and physical AI. Hardware validation is required before deployment."
   image:
     src: /assets/repo_banner.png
     alt: AI Robotics
